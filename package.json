@@ -1,0 +1,20 @@
+{
+  "name": "file-index",
+  "version": "1.0.0",
+  "description": "生成用于github.io等静态页面中使用的文件索引",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "markdown",
+    "json"
+  ],
+  "author": "liquidliang",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "through-gulp": "^0.5.0"
+  }
+}
