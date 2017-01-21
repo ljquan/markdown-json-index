@@ -24,5 +24,6 @@ module.exports = function(path, ext){
   if(ext){
     reg = new RegExp('\.'+ ext +'$');
   }
-  return createIndex(path);
+  let runningPath = process.cwd()+'/';
+  return createIndex(path.replace(runningPath, ''));
 };
